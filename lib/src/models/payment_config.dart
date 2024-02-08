@@ -13,7 +13,7 @@ class PaymentConfig {
   /// The smallest currency unit.
   /// For example, to charge `SAR 257.58` you will have the [amount] as `25758`.
   /// In other words, 10 SAR = 10 * 100 Halalas.
-  late int amount;
+  late num amount;
 
   /// Must be in ISO 3166-1 alpha-3 country code format.
   /// The default value is "SAR".

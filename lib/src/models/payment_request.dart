@@ -5,7 +5,7 @@ import 'package:moyasar/src/models/sources/payment_request_source.dart';
 ///
 /// Use only when you need to customize the UI.
 class PaymentRequest {
-  late int amount;
+  late num amount;
   late String currency;
   String? description;
   Map<String, String>? metadata;
